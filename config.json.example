@@ -1,6 +1,6 @@
 {
   "output": {
-    "format": "markdown-table|cli-table|json",
+    "format": "<markdown-table|cli-table|json>",
     "fields": ["account", "region", "arn", "name", "value"]
   },
   "accounts": [
