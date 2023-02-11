@@ -1,0 +1,19 @@
+{
+  "name": "aws-secrets-query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asq.cjs",
+  "scripts": {
+    "start": "node asq.cjs",
+    "pkg": "pkg asq.cjs --out-path ./dist"
+  },
+  "author": "MK2k",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-secrets-manager": "3.254.0"
+  },
+  "dependencies": {
+    "cli-table": "0.3.11",
+    "ora": "5.4.1"
+  }
+}

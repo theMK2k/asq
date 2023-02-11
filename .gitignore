@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Binaries built by pkg
+dist
+
+# Configuration files
+config.json

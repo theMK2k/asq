@@ -1,0 +1,23 @@
+{
+  "output": {
+    "format": "markdown-table|cli-table|json",
+    "fields": ["account", "region", "arn", "name", "value"]
+  },
+  "accounts": [
+    {
+      "name": "<display name of your choice>",
+      "regions": [
+        {
+          "region": "eu-central-1",
+          "AWS_ACCESS_KEY_ID": "",
+          "AWS_SECRET_ACCESS_KEY": ""
+        },
+        {
+          "region": "eu-west-2",
+          "AWS_ACCESS_KEY_ID": "",
+          "AWS_SECRET_ACCESS_KEY": ""
+        }
+      ]
+    }
+  ]
+}
